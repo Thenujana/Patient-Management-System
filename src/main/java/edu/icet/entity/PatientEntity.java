@@ -8,6 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
+@Entity
 @Table(name="patient")
 
 public class PatientEntity {
