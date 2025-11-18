@@ -29,6 +29,19 @@ I have tested all the endpoints through the postman.
 - ModelMapper  
 - Postman for API testing  
 
+# Sample JSON used to check the endpoint POST
+
+POST http://localhost:8080/api/patients/add
+
+
+{
+    "fullName": "John Doe",
+    "email": "john@example.com",
+    "telephone": "0712345678",
+    "gender": "Male",
+    "address": "123 Main Street",
+    "nic": "123456789V"
+}
 
 
 
